@@ -29,7 +29,8 @@ namespace MyFirstApi.Services
                 Id = newId,
                 Name = dto.Name,
                 Description = dto.Description,
-                Price = dto.Price
+                Price = dto.Price,
+                Image = dto.Image
             };
 
             Products.Add(newProduct);
